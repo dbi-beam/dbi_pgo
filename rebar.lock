@@ -1,0 +1,26 @@
+{"1.1.0",
+[{<<"backoff">>,{pkg,<<"backoff">>,<<"1.1.6">>},1},
+ {<<"cache">>,{pkg,<<"cache">>,<<"2.2.0">>},1},
+ {<<"counters">>,{pkg,<<"counters">>,<<"0.2.0">>},2},
+ {<<"ctx">>,{pkg,<<"ctx">>,<<"0.4.1">>},2},
+ {<<"dbi">>,{pkg,<<"dbi">>,<<"1.0.0">>},0},
+ {<<"eql">>,{pkg,<<"eql">>,<<"0.1.2">>},1},
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"2.9.0">>},2},
+ {<<"opencensus">>,{pkg,<<"opencensus">>,<<"0.5.0">>},1},
+ {<<"pgo">>,{pkg,<<"pgo">>,<<"0.2.0">>},0},
+ {<<"rfc3339">>,{pkg,<<"rfc3339">>,<<"0.9.0">>},3},
+ {<<"wts">>,{pkg,<<"wts">>,<<"0.3.0">>},2}]}.
+[
+{pkg_hash,[
+ {<<"backoff">>, <<"83B72ED2108BA1EE8F7D1C22E0B4A00CFE3593A67DBC792799E8CCE9F42F796B">>},
+ {<<"cache">>, <<"3C11DBF4CD8FCD5787C95A5FB2A04038E3729CFCA0386016EEA8C953AB48A5AB">>},
+ {<<"counters">>, <<"EF00F33404FDD9BD233F9B7966233222469E4560DBE1C712EA2E1AB63BB8FEFD">>},
+ {<<"ctx">>, <<"E4297DD25CCDE992BC7DE298F514BEACD0A44FAA9126A1F2567306D94C519A13">>},
+ {<<"dbi">>, <<"42DB22DD2AA4DE6BE21EDAE49CBA3521CA6C7E92D127177D6E485AAEB18E99E4">>},
+ {<<"eql">>, <<"C95D7E9635A914A9C70983129F4D86DC5DA70877F39F01785C274DA35BE45AD4">>},
+ {<<"jsx">>, <<"D2F6E5F069C00266CAD52FB15D87C428579EA4D7D73A33669E12679E203329DD">>},
+ {<<"opencensus">>, <<"566586F4EDDEE5DE9CCB4F00D9020FA78D270C9C837E56078E7ACD8ADA93148B">>},
+ {<<"pgo">>, <<"C2D50F7AF14EDBA3B122101EF7ED1ACDABE82A5FBBA558BB2C890D542CF3A292">>},
+ {<<"rfc3339">>, <<"2075653DC9407541C84B1E15F8BDA2ABE95FB17C9694025E079583F2D19C1060">>},
+ {<<"wts">>, <<"5CDF22C775CB1EBAE24C326A5DB6074D753C42F4BD12A9AA47CC62D3E2C71AD1">>}]}
+].

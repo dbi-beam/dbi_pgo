@@ -1,0 +1,16 @@
+{application, dbi_pgo, [
+    {description, "DataBase Interface for Erlang using PostgreSQL (pgo)"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        pgo
+    ]},
+    {env, []},
+    {maintainers, ["Manuel Rubio"]},
+    {licenses, ["LGPL 2.1"]},
+    {links, [
+        {"Github", "https://github.com/dbi-beam/dbi_pgo"}
+    ]}
+]}.
