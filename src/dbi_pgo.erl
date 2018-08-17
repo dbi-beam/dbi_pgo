@@ -31,8 +31,10 @@ start_link(Name, DBConf) ->
     Poolsize :: integer(), Extra :: [term()]) -> ok.
 
 init(Host, Port, User, Pass, Database, Poolname, Poolsize, _Extra) ->
-    DataConn = [{host, Host}, {user, User}, {password, Pass},
-                {database, Database},
+    DataConn = [{host, dbi_config:to_charlist(Host)},
+                {user, dbi_config:to_charlist(User)},
+                {password, dbi_config:to_charlist(Pass)},
+                {database, dbi_config:to_charlist(Database)},
                 {port, dbi_query:default(Port, ?DEFAULT_PORT)},
                 {size, dbi_query:default(Poolsize, ?DEFAULT_POOLSIZE)}],
     ChildSpec = dbi_app:child(?MODULE, [Poolname, DataConn]),
